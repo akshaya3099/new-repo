@@ -1,0 +1,36 @@
+class employee
+{
+int iecode;
+float fbasicsal,fHRA,fDA,fgross,fPF;
+employee()
+{
+iecode=00;
+fbasicsal=10000;
+}
+employee(int iecode,float fbasicsal)
+{
+//CODE TO ASSIGN TO INSTANCE VARIABLE
+}
+double calnetsal()
+{
+//CODE TO CAL NET SAL
+return result;
+}
+double calnetsal(float basicsal)
+{
+//CODE TO CAL NET SAL
+return result;
+}
+}
+class employee main
+{
+public static main(String args[])
+{
+employee refemp
+refemp=new employee();
+refemp.calnetsal();
+refemp.calnetsal(20000)
+refemp=new employee(10,20000);
+refemp.calnetsal();
+}
+ref
